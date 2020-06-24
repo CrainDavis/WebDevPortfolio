@@ -1,0 +1,275 @@
+/* default; xs DEVICES less than 576px */
+
+/* PAGE BACKGROUND PATTERN */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  --c: rgba(255, 255, 255, 0.7);
+  --t: transparent;
+  flex: 1;
+  background-image: repeating-linear-gradient(
+      45deg,
+      var(--t) 0,
+      var(--t) 32px,
+      var(--c) 32px,
+      var(--c) 44px,
+      var(--t) 44px,
+      var(--t) 56px,
+      var(--c) 56px,
+      var(--c) 68px,
+      var(--t) 0
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      var(--t) 0,
+      var(--t) 32px,
+      var(--c) 32px,
+      var(--c) 44px,
+      var(--t) 44px,
+      var(--t) 56px,
+      var(--c) 56px,
+      var(--c) 68px,
+      var(--t) 0
+    ),
+    linear-gradient(to bottom left, #fc354c, #0abfbc);
+}
+
+/* NAVBAR HEADER */
+.jumbotron {
+  background-color: transparent;
+  text-align: center;
+}
+.text-container {
+  background-color: white;
+  padding: 10px;
+  border: 5px solid white;
+  background-clip: content-box;
+}
+.jumbotron-text {
+  padding: 30px;
+}
+.page-links {
+  color: black;
+  font-size: 12px;
+}
+.page-links:hover {
+  text-decoration: none;
+  color: #fc354c;
+}
+.full-name {
+  font-family: "Fredoka One", cursive;
+}
+.job-title {
+  padding-top: 8px;
+}
+
+/* MAIN PAGES (ALL) */
+.main-container {
+  background-color: transparent;
+  margin: 0 15px 0 15px;
+  text-align: center;
+}
+.main-text-area {
+  background-color: white;
+  padding: 10px;
+  border: 5px solid white;
+  background-clip: content-box;
+}
+.page-label {
+  font-family: "Fredoka One", cursive;
+  font-size: 30px;
+  border-bottom: 2px solid black;
+  margin: 20px 10px 0 10px;
+}
+.section-spacing {
+  border: 1px solid white;
+}
+
+/* ABOUT ME */
+.bio-image {
+  width: 80%;
+  border: 5px solid white;
+  margin-bottom: 30px;
+}
+.para1,
+.para2,
+.para3 {
+  text-align: left;
+  padding: 0 8px 0 8px;
+  font-size: 15px;
+}
+
+/* PORTFOLIO */
+.card {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+.project-img {
+  height: 170px;
+}
+.card-title {
+  background-color: #0abfbc;
+  color: white;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 5px;
+}
+.project-link-btn {
+  background-color: #fc354c;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+.project-link-btn:hover {
+  background-color: indianred;
+  text-decoration: none;
+  color: white;
+}
+
+/* CONTACT */
+.sns-section {
+  background-color: lightgray;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.sns-link {
+  font-size: 50px;
+  margin: 0 10px;
+  color: white;
+}
+.sns-link-icon,
+.resume-link {
+  color: #fc354c;
+}
+.sns-link-icon:hover {
+  color: #0abfbc;
+}
+.email-link {
+  color: #0abfbc;
+}
+.contact-address {
+    font-size: 15px;
+}
+.email-link:hover {
+  color: #fc354c;
+  text-decoration: none;
+}
+.resume-link:hover {
+  color: #0abfbc;
+}
+.main-contact-card {
+    margin-bottom: 30px;
+}
+
+/* ============================================================================================ */
+
+/* SIZING FOR sm SCREEN SIZES; 576px - 767px */
+@media (min-width: 576px) {
+  .job-title {
+    padding-top: 20px;
+  }
+  .page-links {
+    font-size: 18px;
+  }
+  .project-img {
+    height: 300px;
+  }
+}
+
+/* SIZING FOR md SCREEN SIZES; 768px - 991px */
+@media (min-width: 768px) {
+  .bio-image {
+    width: 100%;
+    margin-left: 15px;
+  }
+  .bio-paragraphs {
+    height: 360px;
+    overflow: scroll;
+  }
+  .project-img {
+    height: 350px;
+  }
+  .card-title {
+    font-size: 30px;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+  .project-link-btn {
+    font-size: 27px;
+  }
+}
+
+/* SIZING FOR lg SCREEN SIZES; 992px - 1199px */
+@media (min-width: 992px) {
+  .job-title {
+    padding-top: 12px;
+  }
+  .page-links {
+    font-size: 24px;
+  }
+  .bio-paragraphs {
+    height: 500px;
+  }
+  .para1,
+  .para2,
+  .para3 {
+    font-size: 20px;
+  }
+  .project-img {
+    height: 420px;
+  }
+  .card-title {
+    font-size: 50px;
+  }
+  .card-text {
+    font-size: 30px;
+  }
+  .project-link-btn {
+    font-size: 45px;
+    padding: 15px;
+  }
+}
+
+/* SIZING FOR xl SCREEN SIZES and UP; 1200px+ */
+@media (min-width: 1200px) {
+  .bio-image {
+    width: 80%;
+  }
+  .page-links {
+    font-size: 20px;
+  }
+  .bio-paragraphs {
+    height: 200px;
+    overflow: visible;
+  }
+  .para1,
+  .para2,
+  .para3 {
+    font-size: 20px;
+  }
+  .portfolio-cards {
+    display: flex;
+    flex-direction: row;
+  }
+  .project-img {
+    height: 200px;
+  }
+  .card-title {
+    font-size: 25px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .project-link-btn {
+    font-size: 16px;
+    padding: 8px;
+  }
+}
