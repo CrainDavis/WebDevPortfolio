@@ -6,7 +6,7 @@ This is my Web Development Portfolio, created using ReactJS. Read my biography, 
 ---
 
 ## Links:
-* deployed application: https://festive-borg-6cc7f2.netlify.app/
+* deployed application: https://chyna-davis-webportfolio.netlify.app/
 
 ---
 
