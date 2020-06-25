@@ -22,9 +22,9 @@ function Contact() {
                             <br></br>
                             <div className="row">
                                 <div className="col-12">
-                                    <span className="sns-link"><a className="sns-link-icon" href="https://www.facebook.com/chyna.davis.5"><i className="fab fa-facebook"></i></a></span>
-                                    <span className="sns-link"><a className="sns-link-icon" href="https://linkedin.com/in/chyna-davis"><i className="fab fa-linkedin"></i></a></span>
-                                    <span className="sns-link"><a className="sns-link-icon" href="https://github.com/CrainDavis"><i className="fab fa-github"></i></a></span>
+                                    <span className="sns-link"><a className="sns-link-icon" href="https://www.facebook.com/chyna.davis.5" target="__blank"><i className="fab fa-facebook"></i></a></span>
+                                    <span className="sns-link"><a className="sns-link-icon" href="https://linkedin.com/in/chyna-davis" target="__blank"><i className="fab fa-linkedin"></i></a></span>
+                                    <span className="sns-link"><a className="sns-link-icon" href="https://github.com/CrainDavis" target="__blank"><i className="fab fa-github"></i></a></span>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ function Contact() {
                             <br></br>
                             <div className="row">
                                 <div className="col-12">
-                                    <span className="sns-link"><a className="resume-link" href={Resume}><i className="far fa-file-alt"></i></a></span>
+                                    <span className="sns-link"><a className="resume-link" href={Resume} target="__blank"><i className="far fa-file-alt"></i></a></span>
                                 </div>
                             </div>
                         </div>

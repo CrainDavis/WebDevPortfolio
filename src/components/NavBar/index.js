@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom"
 import "../../App.css";
 
 function Header() {
@@ -10,9 +11,9 @@ function Header() {
             <span className="job-title">Full-Stack Web Developer</span>
         </p>
         <p className="d-flex justify-content-around">
-            <span><a className="page-links" href="/"><i className="fas fa-user-alt"></i> About Me</a></span>
-            <span><a className="page-links" href="/portfolio"><i className="fas fa-folder-open"></i> My Portfolio</a></span>
-            <span><a className="page-links" href="/contact"><i className="fas fa-envelope"></i> Contact Me</a></span>
+            <NavLink activeClassName="navbar__link--active" className="navbar__link page-links" to="/aboutme"><i className="fas fa-user-alt"></i> About Me</NavLink>
+            <NavLink activeClassName="navbar__link--active" className="navbar__link page-links" to="/portfolio"><i className="fas fa-folder-open"></i> My Portfolio</NavLink>
+            <NavLink activeClassName="navbar__link--active" className="navbar__link page-links" to="/contact"><i className="fas fa-envelope"></i> Contact Me</NavLink>
         </p>
       </div>
     </div>
