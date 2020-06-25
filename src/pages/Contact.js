@@ -22,9 +22,9 @@ function Contact() {
                             <br></br>
                             <div className="row">
                                 <div className="col-12">
-                                    <span className="sns-link"><a className="sns-link-icon" href="https://www.facebook.com/chyna.davis.5"><i class="fab fa-facebook"></i></a></span>
-                                    <span className="sns-link"><a className="sns-link-icon" href="https://linkedin.com/in/chyna-davis"><i class="fab fa-linkedin"></i></a></span>
-                                    <span className="sns-link"><a className="sns-link-icon" href="https://github.com/CrainDavis"><i class="fab fa-github"></i></a></span>
+                                    <span className="sns-link"><a className="sns-link-icon" href="https://www.facebook.com/chyna.davis.5"><i className="fab fa-facebook"></i></a></span>
+                                    <span className="sns-link"><a className="sns-link-icon" href="https://linkedin.com/in/chyna-davis"><i className="fab fa-linkedin"></i></a></span>
+                                    <span className="sns-link"><a className="sns-link-icon" href="https://github.com/CrainDavis"><i className="fab fa-github"></i></a></span>
                                 </div>
                             </div>
                         </div>
@@ -39,10 +39,10 @@ function Contact() {
                             <br></br>
                             <div className="row">
                                 <div className="col-12">
-                                    <span className="contact-address"><i class="fas fa-mobile-alt"></i> (520) 269-1481</span>
+                                    <span className="contact-address"><i className="fas fa-mobile-alt"></i> (520) 269-1481</span>
                                 </div>
                                 <div className="col-12">
-                                    <span className="contact-address"><i class="fas fa-envelope"></i><a className="email-link" href="mailto:chyna.davis11@gmail.com"> chyna.davis11@gmail.com</a></span>
+                                    <span className="contact-address"><i className="fas fa-envelope"></i><a className="email-link" href="mailto:chyna.davis11@gmail.com"> chyna.davis11@gmail.com</a></span>
                                 </div>
                             </div>
                         </div>

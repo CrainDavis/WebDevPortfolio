@@ -61,9 +61,11 @@ body {
 }
 .full-name {
   font-family: "Fredoka One", cursive;
+  font-size: 40px;
 }
 .job-title {
-  padding-top: 8px;
+  padding-top: 7px;
+  font-size: 24px;
 }
 
 /* MAIN PAGES (ALL) */
@@ -173,7 +175,7 @@ body {
 /* SIZING FOR sm SCREEN SIZES; 576px - 767px */
 @media (min-width: 576px) {
   .job-title {
-    padding-top: 20px;
+    padding-top: 25px;
   }
   .page-links {
     font-size: 18px;
@@ -185,6 +187,9 @@ body {
 
 /* SIZING FOR md SCREEN SIZES; 768px - 991px */
 @media (min-width: 768px) {
+  .job-title {
+    padding-top: 15px;
+  }
   .bio-image {
     width: 100%;
     margin-left: 15px;
