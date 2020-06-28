@@ -21,7 +21,7 @@ function AboutMe() {
                             After three semesters, I returned home and decided to enroll in the UofA's Coding Bootcamp to gain highly sought-after web development skills. My goal is to be able to find employment through these new skills in a challenging and rewarding field of work, learn a thousand times more than I already have, and help develop amazing web applications. 
                         </p>
                         <p className="para3">
-                            Though I have experience with both front and back-end development, I especially enjoy the design aspect of creating an application's user-oriented front-end, and am proficient with technologies from both ends including HTML/CSS, Bootstrap and Bulma CSS frameworks, JavaScript/jQuery, NodeJS, Express, Handlebars, MySQL, Sequelize, and React.
+                            Though I have experience with both front and back-end development, I especially enjoy the design aspect of creating an application's user-oriented front-end, and am proficient with technologies from both ends including HTML/CSS, Bootstrap and Bulma CSS frameworks, JavaScript/jQuery, NodeJS, Express, Handlebars, MySQL, Sequelize, and ReactJS.
                         </p>
                     </div>
                 </div>

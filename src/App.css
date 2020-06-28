@@ -37,15 +37,16 @@ body {
     linear-gradient(to bottom left, #fc354c, #0abfbc);
 }
 
-/* NAVBAR HEADER */
+/* Header HEADER */
 .jumbotron {
   background-color: transparent;
   text-align: center;
+  margin: 0;
 }
 .text-container {
-  background-color: white;
+  background-color: whitesmoke;
   padding: 10px;
-  border: 5px solid white;
+  border: 5px solid whitesmoke;
   background-clip: content-box;
 }
 .jumbotron-text {
@@ -59,7 +60,7 @@ body {
   text-decoration: none;
   color: #fc354c;
 }
-.navbar__link--active {
+.Header__link--active {
   border-bottom: 2px solid #0abfbc;
   color: #0abfbc;
 }
@@ -73,18 +74,38 @@ body {
   padding-top: 7px;
   font-size: 24px;
   font-weight: bold;
+  
+}
+
+/* FOOTER */
+.page-footer {
+  background-color: whitesmoke;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 3px solid #fc354c;
+}
+.footer-copyright {
+  font-size: 20px;
+}
+.link-name {
+  color: #0abfbc;
+  font-weight: bold;
+}
+.link-name:hover {
+  color: #fc354c;
+  text-decoration: none;
 }
 
 /* MAIN PAGES (ALL) */
 .main-container {
   background-color: transparent;
-  margin: 0 15px 0 15px;
+  margin: 0 15px 100px 15px;
   text-align: center;
 }
 .main-text-area {
-  background-color: white;
+  background-color: whitesmoke;
   padding: 10px;
-  border: 5px solid white;
+  border: 5px solid whitesmoke;
   background-clip: content-box;
 }
 .welcome-statement1 {
@@ -106,7 +127,7 @@ body {
   color: #0abfbc;
 }
 .section-spacing {
-  border: 1px solid white;
+  border: 1px solid whitesmoke;
 }
 
 /* ABOUT ME */
@@ -114,6 +135,7 @@ body {
   width: 80%;
   border: 5px solid #fc354c;
   margin-bottom: 30px;
+  box-shadow: 1px 1px 10px #888888;
 }
 .para1,
 .para2,
@@ -125,45 +147,47 @@ body {
 
 /* PORTFOLIO */
 .card {
-  background-color: whitesmoke;
-  border: 1px solid black;
-  margin-bottom: 5px;
+  background-color: #f4f4f4;
+  border: 1px solid gray;
+  margin: 5px;
+  box-shadow: 1px 1px 10px #888888;
 }
 .project-img {
-  height: 170px;
+  height: 200px;
 }
 .card-title {
   background-color: #0abfbc;
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
   padding: 2px;
   border-radius: 5px;
 }
 .project-link-btn {
   background-color: #fc354c;
-  color: white;
+  color: whitesmoke;
   padding: 8px;
   border-radius: 5px;
 }
 .project-link-btn:hover {
-  background-color: #fdaeb7;
+  background-color: #971f2d;
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
 }
 
 /* CONTACT */
 .sns-section {
   background-color: lightgray;
-  color: white;
+  color: whitesmoke;
   padding: 20px;
   font-size: 20px;
   font-weight: bold;
   border-radius: 5px;
+  box-shadow: 1px 1px 10px #888888;
 }
 .sns-link {
   font-size: 50px;
   margin: 0 10px;
-  color: white;
+  color: whitesmoke;
 }
 .sns-link-icon,
 .resume-link,
@@ -216,7 +240,7 @@ body {
     overflow: scroll;
   }
   .project-img {
-    height: 350px;
+    height: 250px;
   }
   .card-title {
     font-size: 30px;
@@ -246,16 +270,16 @@ body {
     font-size: 20px;
   }
   .project-img {
-    height: 420px;
+    height: 250px;
   }
   .card-title {
-    font-size: 50px;
+    font-size: 25px;
   }
   .card-text {
-    font-size: 30px;
+    font-size: 22px;
   }
   .project-link-btn {
-    font-size: 45px;
+    font-size: 20px;
     padding: 15px;
   }
 }
@@ -263,7 +287,7 @@ body {
 /* SIZING FOR xl SCREEN SIZES and UP; 1200px+ */
 @media (min-width: 1200px) {
   .bio-image {
-    width: 80%;
+    width: 65%;
   }
   .page-links {
     font-size: 20px;
@@ -277,21 +301,17 @@ body {
   .para3 {
     font-size: 20px;
   }
-  .portfolio-cards {
-    display: flex;
-    flex-direction: row;
-  }
   .project-img {
-    height: 200px;
+    height: 250px;
   }
   .card-title {
-    font-size: 25px;
+    font-size: 30px;
   }
   .card-text {
-    font-size: 12px;
+    font-size: 18px;
   }
   .project-link-btn {
-    font-size: 16px;
+    font-size: 20px;
     padding: 8px;
   }
 }
