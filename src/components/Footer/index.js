@@ -6,8 +6,7 @@ function Footer() {
     <div>
       <footer className="page-footer fixed-bottom">
         <div className="footer-copyright">
-          © 2020 Copyright:
-          <a className="link-name" href="https://github.com/CrainDavis"> Chyna Davis</a>
+          <span className="copyright-text">© 2020 Copyright:<a className="link-name" href="https://github.com/CrainDavis"> Chyna Davis</a></span>
         </div>
       </footer>
     </div>

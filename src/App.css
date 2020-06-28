@@ -37,7 +37,7 @@ body {
     linear-gradient(to bottom left, #fc354c, #0abfbc);
 }
 
-/* Header HEADER */
+/* HEADER */
 .jumbotron {
   background-color: transparent;
   text-align: center;
@@ -48,6 +48,7 @@ body {
   padding: 10px;
   border: 5px solid whitesmoke;
   background-clip: content-box;
+  box-shadow: 1px 1px 10px #6e6d6d;
 }
 .jumbotron-text {
   padding: 30px;
@@ -87,6 +88,9 @@ body {
 .footer-copyright {
   font-size: 20px;
 }
+.copyright-text {
+  text-shadow: 1px 1px 8px #888888;
+}
 .link-name {
   color: #0abfbc;
   font-weight: bold;
@@ -107,6 +111,7 @@ body {
   padding: 10px;
   border: 5px solid whitesmoke;
   background-clip: content-box;
+  box-shadow: 1px 1px 10px #6e6d6d;
 }
 .welcome-statement1 {
   padding: 40px 0px 0px 0px;

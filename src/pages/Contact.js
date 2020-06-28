@@ -11,7 +11,7 @@ function Contact() {
                     <div className="col-12"><h4 className="page-label">Contact Me</h4></div>
                 </div>
                 <SectionSpacing />
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="main-contact-card col-12 col-lg-4 d-flex justify-content-around">
                         <div className="sns-section">
                             <div className="row">
@@ -29,7 +29,7 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="main-contact-card card-address col-12 col-lg-4 d-flex justify-content-around">
+                    <div className="main-contact-card card-address col-10 col-lg-4 d-flex justify-content-around">
                         <div className="sns-section">
                             <div className="row">
                                 <div className="col-12">
