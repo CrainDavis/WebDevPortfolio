@@ -7,7 +7,7 @@ function Header() {
     <div className="jumbotron">
       <div className="container text-container">
         <p className="jumbotron-text d-flex justify-content-around">
-            <span className="full-name">Chyna Davis</span>
+            <NavLink className="Header__link home-page-link" to="/">Chyna Davis</NavLink>
             <span className="job-title">Full-Stack Web Developer</span>
         </p>
         <p className="d-flex justify-content-around">
