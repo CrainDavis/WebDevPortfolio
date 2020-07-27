@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import SectionSpacing from "../components/SectionSpacing";
 import Resume from "../utils/documents/ChynaDavis_resume.pdf";
+import BootcampCertificate from "../utils/documents/ChynaDavis_01.pdf";
 
 function Contact() {
     return (
@@ -51,13 +52,14 @@ function Contact() {
                         <div className="sns-section">
                             <div className="row">
                                 <div className="col-12">
-                                    <span className="sns-link-heading">check out my resume:</span>
+                                    <span className="sns-link-heading">resume & certification:</span>
                                 </div>
                             </div>
                             <br></br>
                             <div className="row">
                                 <div className="col-12">
                                     <span className="sns-link"><a className="resume-link" href={Resume} target="__blank"><i className="far fa-file-alt"></i></a></span>
+                                    <span className="sns-link"><a className="resume-link" href={BootcampCertificate} target="__blank"><i className="fas fa-medal"></i></a></span>
                                 </div>
                             </div>
                         </div>
