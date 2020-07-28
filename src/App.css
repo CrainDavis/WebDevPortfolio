@@ -6,6 +6,7 @@ body {
   height: 100%;
 }
 body {
+  background-attachment: fixed;
   margin: 0;
   --c: rgba(255, 255, 255, 0.7);
   --t: transparent;
@@ -174,7 +175,6 @@ body {
 .project-link-btn {
   background-color: #fc354c;
   color: whitesmoke;
-  padding: 8px;
   border-radius: 5px;
 }
 .project-link-btn:hover {

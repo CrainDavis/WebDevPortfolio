@@ -47,15 +47,6 @@ export default [
     {
         id: "project-6",
         num: 5,
-        gh_href: "https://github.com/CrainDavis/WorkoutTracker",
-        app_href: "https://whispering-tundra-66062.herokuapp.com/",
-        img_src: "workout-tracker-IMAGE.png",
-        app_name: "Workout Tracker",
-        app_text: "is an application that allows users to create new workout plans daily, add various exercises to a day's workout, track their daily workout stats, and strive to reach their fitness goals! User workouts can even be tracked and viewed on detailed and interactive charts. This application uses a MongoDatabase to store a user's workout data and Express to handle routes."
-    },
-    {
-        id: "project-7",
-        num: 6,
         gh_href: "https://github.com/CrainDavis/EmployeeDirectory",
         app_href: "https://craindavis.github.io/EmployeeDirectory/",
         img_src: "employee-directory-IMAGE.png",
@@ -63,21 +54,21 @@ export default [
         app_text: "is a ReactJS application that allows users to view a database of employees and their information, as well as sort and filter the employees."
     },
     {
-        id: "project-8",
-        num: 7,
-        gh_href: "https://github.com/CrainDavis/GoogleBookshelf",
-        app_href: "https://cdavis-googlebookshelf.herokuapp.com/",
-        img_src: "-IMAGE.png",
-        app_name: "Google Bookshelf",
-        app_text: "is a MERN application that allows the user to browse for books from the Google Books API, read basic information (title, author(s), summary, page count, and date of publish), and click a button that will take them tot he Google Book's page for that specific book. Users can also save books to a database to be viewed again later (and subsequently deleted if desired). This application uses ReactJS with Bootstrap and a Mongo Database."
-    },
-    {
-        id: "project-9",
-        num: 8,
+        id: "project-7",
+        num: 6,
         gh_href: "https://github.com/Mleuer/Color-Story",
         app_href: "https://color-story.herokuapp.com/",
         img_src: "color-story-IMAGE.png",
         app_name: "Color Story",
-        app_text: "is an app for artists and designers who work in multiple media to showcase all their work in one place, from digital media to material objects. If they made it, it can be shared on the site via a community wall of images. The wall ('Color Wall') can be sorted by color category, and renders in a responsive image grid for a seamless, quilt-like appearance. Users who visit the Color Wall will browse images and connect directly to the artists via a modal that contains the artist's website link, description of the work, and price."
+        app_text: "is an application for artists and designers who work in multiple media to showcase all their work in one place, from digital media to material objects. The ColorWall displays a quilt of images uploaded by users, which can also be filtered by color and clicked on to view the image and artist's additional information."
     },
+    {
+        id: "project-7.5",
+        num: 7,
+        gh_href: "https://github.com/CrainDavis/ColorSortingMachine",
+        app_href: "https://craindavis.github.io/ColorSortingMachine/",
+        img_src: "color-sorting-machine-IMAGE.png",
+        app_name: "Color Sorting Machine",
+        app_text: "is an application developed as a side-project to Color Story. During the early planning stage of Color Story, we considering writing an algorithm that would take in an RGB color value generated from an image and sort it into a category such as 'red', 'green', or 'blue'. While this idea has since been relegated to 'Future Development', I have written an early prototype to categorize RGB values."
+    }
 ]
