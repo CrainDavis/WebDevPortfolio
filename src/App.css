@@ -78,9 +78,8 @@ body {
 }
 .job-title {
   padding-top: 7px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  
 }
 
 /* FOOTER */
@@ -175,6 +174,7 @@ body {
 .project-link-btn {
   background-color: #fc354c;
   color: whitesmoke;
+  padding: 8px;
   border-radius: 5px;
 }
 .project-link-btn:hover {
@@ -225,6 +225,7 @@ body {
 /* SIZING FOR sm SCREEN SIZES; 576px - 767px */
 @media (min-width: 576px) {
   .job-title {
+    font-size: 24px;
     padding-top: 25px;
   }
   .page-links {
@@ -258,7 +259,7 @@ body {
     font-size: 20px;
   }
   .project-link-btn {
-    font-size: 27px;
+    font-size: 20px;
   }
 }
 
@@ -288,8 +289,8 @@ body {
     font-size: 22px;
   }
   .project-link-btn {
-    font-size: 20px;
-    padding: 15px;
+    font-size: 18px;
+    padding: 10px;
   }
 }
 
