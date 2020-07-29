@@ -184,6 +184,9 @@ body {
 }
 
 /* CONTACT */
+.contact-me-section {
+  padding: 0px 20px;
+}
 .sns-section {
   background-color: lightgray;
   color: whitesmoke;
@@ -193,7 +196,8 @@ body {
   border-radius: 5px;
   box-shadow: 1px 1px 10px #888888;
 }
-.sns-link {
+.sns-link,
+.email-link {
   font-size: 50px;
   margin: 0 10px;
   color: whitesmoke;
@@ -207,7 +211,7 @@ body {
   color: #0abfbc;
 }
 .contact-address {
-    font-size: 15px;
+  font-size: 15px;
 }
 .email-link:hover {
   color: #0abfbc;
@@ -217,7 +221,8 @@ body {
   color: #0abfbc;
 }
 .main-contact-card {
-    margin-bottom: 30px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 /* ============================================================================================ */

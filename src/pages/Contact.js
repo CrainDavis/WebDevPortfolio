@@ -12,8 +12,9 @@ function Contact() {
                     <div className="col-12"><h4 className="page-label">Contact Me</h4></div>
                 </div>
                 <SectionSpacing />
-                <div className="row justify-content-center">
-                    <div className="main-contact-card col-12 col-lg-4 d-flex justify-content-around">
+                <div className="row justify-content-center contact-me-section">
+                    {/* social media links card */}
+                    <div className="main-contact-card col-12 col-lg-4">
                         <div className="sns-section">
                             <div className="row">
                                 <div className="col-12">
@@ -30,7 +31,8 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="main-contact-card card-address col-10 col-lg-4 d-flex justify-content-around">
+                    {/* contact method card */}
+                    <div className="main-contact-card col-12 col-lg-4">
                         <div className="sns-section">
                             <div className="row">
                                 <div className="col-12">
@@ -40,15 +42,13 @@ function Contact() {
                             <br></br>
                             <div className="row">
                                 <div className="col-12">
-                                    <span className="contact-address"><i className="fas fa-mobile-alt"></i> (520) 269-1481</span>
-                                </div>
-                                <div className="col-12">
-                                    <span className="contact-address"><i className="fas fa-envelope"></i><a className="email-link" href="mailto:chyna.davis11@gmail.com"> chyna.davis11@gmail.com</a></span>
+                                    <span className="contact-address"><a className="email-link" href="mailto:chyna.davis11@gmail.com"><i className="fas fa-envelope"></i></a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="main-contact-card col-12 col-lg-4 d-flex justify-content-around">
+                    {/* resume & certificates card */}
+                    <div className="main-contact-card col-12 col-lg-4">
                         <div className="sns-section">
                             <div className="row">
                                 <div className="col-12">
