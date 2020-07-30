@@ -72,6 +72,9 @@ function AboutMe() {
               <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
                 MongoDB
               </div>
+              <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
+                AJAX / APIs
+              </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
                 Git version control
               </div>
