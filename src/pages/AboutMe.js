@@ -78,8 +78,6 @@ function AboutMe() {
             </div>
           </div>
         </div>
-        <SectionSpacing />
-        <SectionSpacing />
       </div>
     </div>
   );
