@@ -164,7 +164,6 @@ function Contact() {
             </div>
           </div>
         </div>
-        <SectionSpacing />
       </div>
     </div>
   );
