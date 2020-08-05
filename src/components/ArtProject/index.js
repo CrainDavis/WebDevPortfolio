@@ -5,10 +5,11 @@ import Lightbox from "react-image-lightbox";
 
 import fourSeasons from "../../utils/images/art-images/4seasons.png";
 import gradientLandscape from "../../utils/images/art-images/gradient-landscape-1.png";
+import eeveelutions from "../../utils/images/art-images/eeveelutions.png";
 
 import "../ArtProject/index.css";
 
-const images = [fourSeasons, gradientLandscape];
+const images = [fourSeasons, gradientLandscape, eeveelutions];
 
 class ArtProject extends React.Component {
   constructor(props) {
@@ -28,7 +29,7 @@ class ArtProject extends React.Component {
           <Card key={this.props.artProject.id} className="h-100">
             <Card.Img
               variant="top"
-              className="project-img art-img"
+              className="art-img"
               src={images[this.props.artProject.num]}
               onClick={() =>
                 this.setState({

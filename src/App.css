@@ -214,6 +214,10 @@ body::-webkit-scrollbar-thumb:hover {
 .project-img {
   height: 200px;
 }
+.art-img {
+  width: 100%;
+  height: auto;
+}
 .art-img:hover {
   opacity: 0.5;
 }
@@ -315,7 +319,7 @@ body::-webkit-scrollbar-thumb:hover {
     height: 250px;
   }
   .card-title {
-    font-size: 30px;
+    font-size: 25px;
   }
   .card-text {
     font-size: 20px;

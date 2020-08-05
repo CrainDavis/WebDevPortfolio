@@ -13,9 +13,16 @@ export default [
         img_title: "Gradient Landscape",
         description: "This is an illustration depicting mountains overlooking a lake. Using Adobe Illustrator, this landscape design makes use of various tools including various pens, gradients, and opacities."
     },
+    {
+        id: "art-3",
+        num: 2,
+        img_src: "eeveelutions.png",
+        img_title: "Eeveelutions",
+        description: "This is a digital illustration of Eevee and its 8 evolutions, created using Adobe Illustrator. This illustration mostly uses the pen and gradient tools."
+    },
     // {
-    //     id: "art-3",
-    //     num: 2,
+    //     id: "art-4",
+    //     num: 3,
     //     img_src: "",
     //     img_title: "",
     //     description: ""
