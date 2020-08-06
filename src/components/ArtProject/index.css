@@ -137,6 +137,7 @@
   }
   
   .ril__toolbar {
+    display: none; /* HIDE TOOLBAR FOR LIGHTBOX IMAGE */
     top: 0;
     height: 50px;
   }
