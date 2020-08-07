@@ -22,7 +22,7 @@ function AboutMe() {
               <div className="col-12">
                 <p className="para1">
                   Welcome to my webpage and thanks for visiting! My name is
-                  Chyna Davis and I am a linguist and full-stack web developer.
+                  Chyna Davis and I am a linguist and full-stack web developer from Tucson, Arizona.
                   I graduated from the University of Arizona in 2017 with a
                   degree in Linguistics and a minor in Japanese language.
                 </p>

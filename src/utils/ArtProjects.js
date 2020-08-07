@@ -20,9 +20,16 @@ export default [
         img_title: "Eeveelutions",
         description: "This is a digital illustration of Eevee and its 8 evolutions, created using Adobe Illustrator. This illustration mostly uses the pen and gradient tools."
     },
+    {
+        id: "art-4",
+        num: 3,
+        img_src: "hibiscus-logo.png",
+        img_title: "Hibiscus Logo",
+        description: "This digital illustration, made using Adobe Illustrator, depicts my favorite flower: the hibiscus. I made this logo by tracing a clipart image with the pen tool and then used a variety of gradients."
+    },
     // {
-    //     id: "art-4",
-    //     num: 3,
+    //     id: "art-5",
+    //     num: 4,
     //     img_src: "",
     //     img_title: "",
     //     description: ""

@@ -47,7 +47,7 @@ body::-webkit-scrollbar-track {
  
 body::-webkit-scrollbar-thumb {
   background-color: #0abfbc;
-  border: 2px solid whitesmoke;
+  border: 2px solid white;
   border-radius: 20px;
 }
 body::-webkit-scrollbar-thumb:hover {
@@ -58,12 +58,12 @@ body::-webkit-scrollbar-thumb:hover {
 .jumbotron {
   background-color: transparent;
   text-align: center;
-  margin: 0;
+  /* margin: -50px 0px 0px 0px; */
 }
 .text-container {
-  background-color: whitesmoke;
+  background-color: white;
   padding: 10px;
-  border: 5px solid whitesmoke;
+  border: 5px solid white;
   background-clip: content-box;
   box-shadow: 1px 1px 10px #6e6d6d;
 }
@@ -100,7 +100,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* FOOTER */
 .page-footer {
-  background-color: whitesmoke;
+  /* margin-top: 20px; */
+  background-color: white;
   padding: 10px 0;
   text-align: center;
   border-top: 3px solid #fc354c;
@@ -123,24 +124,33 @@ body::-webkit-scrollbar-thumb:hover {
 /* MAIN PAGES (ALL) */
 .main-container {
   background-color: transparent;
-  margin: 0 15px 50px 15px;
+  margin: -50px 15px 50px 15px;
   text-align: center;
 }
 .main-text-area {
-  background-color: whitesmoke;
+  background-color: white;
   padding: 10px;
-  border: 5px solid whitesmoke;
+  border: 5px solid white;
   background-clip: content-box;
   box-shadow: 1px 1px 10px #6e6d6d;
 }
-.welcome-statement1 {
-  padding: 40px 0px 0px 0px;
+.hibiscus-logo {
+  width: 100%;
+  height: auto;
+}
+.welcome-statement1, .welcome-statement2 {
   font-family: "Fredoka One", cursive;
   font-size: 30px;
   color: #0abfbc;
 }
+.welcome-statement1 {
+  padding: 20px 0px 0px 0px;
+}
 .welcome-statement2 {
-  padding: 40px 0px 30px 0px;
+  padding: 0px;
+}
+.welcome-statement3 {
+  padding: 20px 0px 20px 0px;
   font-size: 18px;
   color: #fc354c;
 }
@@ -152,7 +162,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #0abfbc;
 }
 .section-spacing {
-  border: 1px solid whitesmoke;
+  border: 1px solid white;
 }
 
 /* ABOUT ME */
@@ -218,26 +228,31 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   height: auto;
 }
-.art-img:hover {
-  opacity: 0.5;
-}
 .card-title {
   background-color: #0abfbc;
-  color: whitesmoke;
+  color: white;
   font-weight: bold;
   padding: 2px;
   border-radius: 5px;
 }
-.project-link-btn {
+.project-link-btn, .artwork-btn {
   background-color: #fc354c;
-  color: whitesmoke;
+  color: white;
   padding: 8px;
   border-radius: 5px;
+}
+.artwork-btn {
+  margin-bottom: 0px;
 }
 .project-link-btn:hover {
   background-color: #971f2d;
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
+}
+.artwork-btn:hover {
+  background-color: #971f2d;
+  text-decoration: none;
+  color: white;
 }
 
 /* CONTACT */
@@ -246,7 +261,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .sns-section {
   background-color: lightgray;
-  color: whitesmoke;
+  color: white;
   padding: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -257,7 +272,7 @@ body::-webkit-scrollbar-thumb:hover {
 .email-link {
   font-size: 50px;
   margin: 0 10px;
-  color: whitesmoke;
+  color: white;
 }
 .sns-link-icon,
 .resume-link,
@@ -286,6 +301,17 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* SIZING FOR sm SCREEN SIZES; 576px - 767px */
 @media (min-width: 576px) {
+  .welcome-statement1 {
+    padding: 30px 0px 0px 0px;
+    font-size: 22px;
+  }
+  .welcome-statement2 {
+    padding: 0px;
+    font-size: 22px;
+  }
+  .welcome-statement3 {
+    padding: 30px 0px 30px 0px;
+  }
   .job-title {
     font-size: 24px;
     padding-top: 25px;
@@ -304,6 +330,18 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* SIZING FOR md SCREEN SIZES; 768px - 991px */
 @media (min-width: 768px) {
+  .hibiscus-logo {
+    margin-left: 20px;
+  }
+  .welcome-statement1 {
+    padding: 60px 0px 0px 0px;
+  }
+  .welcome-statement2 {
+    padding: 0px;
+  }
+  .welcome-statement3 {
+    padding: 80px 0px 30px 0px;
+  }
   .job-title {
     padding-top: 15px;
   }
@@ -334,6 +372,18 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* SIZING FOR lg SCREEN SIZES; 992px - 1199px */
 @media (min-width: 992px) {
+  .hibiscus-logo {
+    margin-left: 50px;
+  }
+  .welcome-statement1 {
+    padding: 70px 0px 0px 0px;
+  }
+  .welcome-statement2 {
+    padding: 0px;
+  }
+  .welcome-statement3 {
+    padding: 80px 0px 0px 0px;
+  }
   .job-title {
     padding-top: 12px;
   }
@@ -363,6 +413,21 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* SIZING FOR xl SCREEN SIZES and UP; 1200px+ */
 @media (min-width: 1200px) {
+  .hibiscus-logo {
+    margin-left: 120px;
+  }
+  .welcome-statement1 {
+    padding: 100px 0px 0px 0px;
+    font-size: 35px;
+  }
+  .welcome-statement2 {
+    padding: 0px;
+    font-size: 35px;
+  }
+  .welcome-statement3 {
+    padding: 80px 0px 30px 0px;
+    font-size: 25px;
+  }
   .bio-image {
     width: 65%;
   }
