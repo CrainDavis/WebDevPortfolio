@@ -10,6 +10,7 @@ import bestimator from "../../utils/images/app-images/bestimator-IMAGE.png";
 import employeeDirectory from "../../utils/images/app-images/employee-directory-IMAGE.png";
 import colorStory from "../../utils/images/app-images/color-story-IMAGE.png";
 import colorSorter from "../../utils/images/app-images/color-sorting-machine-IMAGE.png";
+import googleBookshelf from "../../utils/images/app-images/google-bookshelf-IMAGE.png";
 
 const images = [
   codeQuiz,
@@ -19,7 +20,8 @@ const images = [
   bestimator,
   employeeDirectory,
   colorStory,
-  colorSorter
+  colorSorter,
+  googleBookshelf
 ];
 
 function WebProject(props) {

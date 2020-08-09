@@ -70,5 +70,14 @@ export default [
         img_src: "color-sorting-machine-IMAGE.png",
         app_name: "Color Sorting Machine",
         app_text: "is an application developed as a side-project to Color Story. During the early planning stage of Color Story, we considering writing an algorithm that would take in an RGB color value generated from an image and sort it into a category such as 'red', 'green', or 'blue'. While this idea has since been relegated to 'Future Development', I have written an early prototype to categorize RGB values."
+    },
+    {
+        id: "project-8",
+        num: 8,
+        gh_href: "https://github.com/CrainDavis/GoogleBookshelf2",
+        app_href: "https://cdavis-googlebookshelf2.herokuapp.com/",
+        img_src: "google-bookshelf-IMAGE.png",
+        app_name: "Google Bookshelf",
+        app_text: "is a full-stack application that allows the user to browse for books from the Google Books API, read basic information (title, author(s), summary, page count, and date of publish), and click a button that will take them to the Google Book's page for that specific book. Users can also save books to a database to be viewed again later (and subsequently deleted if desired)."
     }
 ]
