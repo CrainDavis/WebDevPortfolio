@@ -79,5 +79,32 @@ export default [
         img_src: "google-bookshelf-IMAGE.png",
         app_name: "Google Bookshelf",
         app_text: "is a full-stack application that allows the user to browse for books from the Google Books API, read basic information (title, author(s), summary, page count, and date of publish), and click a button that will take them to the Google Book's page for that specific book. Users can also save books to a database to be viewed again later (and subsequently deleted if desired)."
-    }
+    },
+    // {
+    //     id: "project-9",
+    //     num: 9,
+    //     gh_href: "",
+    //     app_href: "",
+    //     img_src: "-IMAGE.png",
+    //     app_name: "",
+    //     app_text: ""
+    // },
+    // {
+    //     id: "project-10",
+    //     num: 10,
+    //     gh_href: "",
+    //     app_href: "",
+    //     img_src: "-IMAGE.png",
+    //     app_name: "",
+    //     app_text: ""
+    // },
+    // {
+    //     id: "project-11",
+    //     num: 11,
+    //     gh_href: "",
+    //     app_href: "",
+    //     img_src: "-IMAGE.png",
+    //     app_name: "",
+    //     app_text: ""
+    // },
 ]

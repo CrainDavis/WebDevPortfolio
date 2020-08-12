@@ -58,10 +58,10 @@ function AboutMe() {
                 JavaScript / jQuery
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
-                ReactJS
+                React
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
-                NodeJS / Express
+                Node.js / Express
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
                 Handlebars
@@ -73,7 +73,7 @@ function AboutMe() {
                 MongoDB
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
-                AJAX / APIs
+                REST APIs
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
                 Git version control
