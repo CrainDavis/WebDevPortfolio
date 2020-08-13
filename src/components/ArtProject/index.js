@@ -26,7 +26,7 @@ class ArtProject extends React.Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <>
-        <Col xs={12} md={6} lg={4} xl={3} className="mb-3">
+        <Col xs={12} md={6} xl={3} className="mb-3">
           <Card key={this.props.artProject.id} className="h-100">
             <Card.Img
               variant="top"

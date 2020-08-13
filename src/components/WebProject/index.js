@@ -8,9 +8,8 @@ import employeeTrackerCMS from "../../utils/images/app-images/employee-CMS-IMAGE
 import burger from "../../utils/images/app-images/burger-IMAGE.png";
 import bestimator from "../../utils/images/app-images/bestimator-IMAGE.png";
 import employeeDirectory from "../../utils/images/app-images/employee-directory-IMAGE.png";
-import colorStory from "../../utils/images/app-images/color-story-IMAGE.png";
-import colorSorter from "../../utils/images/app-images/color-sorting-machine-IMAGE.png";
 import googleBookshelf from "../../utils/images/app-images/google-bookshelf-IMAGE.png";
+import colorStory from "../../utils/images/app-images/color-story-IMAGE.png";
 
 const images = [
   codeQuiz,
@@ -19,15 +18,14 @@ const images = [
   burger,
   bestimator,
   employeeDirectory,
+  googleBookshelf,
   colorStory,
-  colorSorter,
-  googleBookshelf
 ];
 
 function WebProject(props) {
   return (
     <>
-      <Col xs={12} md={6} lg={4} xl={3} className="mb-3">
+      <Col xs={12} md={6} xl={3} className="mb-3">
         <Card key={props.webProject.id} className="h-100">
           <Card.Img
             variant="top"
@@ -39,6 +37,9 @@ function WebProject(props) {
             <Card.Text className="project-desc">
               <p style={{ fontSize: "75%" }} className="card-text">
                 {props.webProject.app_text}
+              </p>
+              <p style={{ fontSize: "75%" }} className="card-text">
+                <span style={{ fontWeight: "bold" }}>tech used: </span>{props.webProject.tech_used.join(", ")}
               </p>
             </Card.Text>
           </Card.Body>
