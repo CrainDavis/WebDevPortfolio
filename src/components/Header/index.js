@@ -14,7 +14,7 @@ function Header() {
             </NavLink>
           </Col>
           <Col xs={12} md={6}>
-            <p className="job-title">Full-Stack Web Developer</p>
+            <p className="job-title">Full-Stack Web Developer & Linguist</p>
           </Col>
         </Row>
         <p className="d-flex justify-content-around">
