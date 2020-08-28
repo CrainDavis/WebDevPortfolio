@@ -1,0 +1,148 @@
+/* ============================================================================================ */
+
+/* WELCOME PAGE */
+
+/* ============================================================================================ */
+
+@keyframes welcomeStatement-1-2 {
+  0% {
+    opacity: 0;
+    left: 0px;
+    top: -100px;
+  }
+  100% {
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes welcomeStatement-3 {
+  0% {
+    opacity: 0;
+    left: 0px;
+    top: 100px;
+  }
+  100% {
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes hibiscusLogo {
+  0% {
+    opacity: 0;
+    left: -100px;
+    top: 0px;
+  }
+  100% {
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/* ============================================================================================ */
+
+/* default; xs DEVICES less than 576px */
+.hibiscus-logo {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  position: relative;
+  animation-name: hibiscusLogo;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.welcome-statement1,
+.welcome-statement2 {
+  font-family: "Fredoka One", cursive;
+  font-size: 30px;
+  color: #0abfbc;
+  position: relative;
+  animation-name: welcomeStatement-1-2;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.welcome-statement1 {
+  padding: 20px 0px 0px 0px;
+}
+.welcome-statement2 {
+  padding: 0px;
+}
+.welcome-statement3 {
+  padding: 20px 0px 20px 0px;
+  font-size: 18px;
+  color: #fc354c;
+  position: relative;
+  animation-name: welcomeStatement-3;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+/* ============================================================================================ */
+
+/* SIZING FOR sm SCREEN SIZES; 576px - 767px */
+@media (min-width: 576px) {
+  .welcome-statement1 {
+    padding: 30px 0px 0px 0px;
+    font-size: 22px;
+  }
+  .welcome-statement2 {
+    padding: 0px;
+    font-size: 22px;
+  }
+  .welcome-statement3 {
+    padding: 30px 0px 30px 0px;
+  }
+}
+
+/* SIZING FOR md SCREEN SIZES; 768px - 991px */
+@media (min-width: 768px) {
+  .hibiscus-logo {
+    margin-left: 20px;
+  }
+  .welcome-statement1 {
+    padding: 60px 0px 0px 0px;
+  }
+  .welcome-statement2 {
+    padding: 0px;
+  }
+  .welcome-statement3 {
+    padding: 80px 0px 30px 0px;
+  }
+}
+
+/* SIZING FOR lg SCREEN SIZES; 992px - 1199px */
+@media (min-width: 992px) {
+  .hibiscus-logo {
+    margin-left: 50px;
+  }
+  .welcome-statement1 {
+    padding: 70px 0px 0px 0px;
+  }
+  .welcome-statement2 {
+    padding: 0px;
+  }
+  .welcome-statement3 {
+    padding: 80px 0px 0px 0px;
+  }
+}
+
+/* SIZING FOR xl SCREEN SIZES and UP; 1200px+ */
+@media (min-width: 1200px) {
+  .hibiscus-logo {
+    margin-left: 120px;
+  }
+  .welcome-statement1 {
+    padding: 100px 0px 0px 0px;
+    font-size: 35px;
+  }
+  .welcome-statement2 {
+    padding: 0px;
+    font-size: 35px;
+  }
+  .welcome-statement3 {
+    padding: 80px 0px 30px 0px;
+    font-size: 25px;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import "../pages/css/AboutMe.css";
 import SectionSpacing from "../components/SectionSpacing";
 import BioImage from "../utils/images/bio-image.jpeg";
 
@@ -22,9 +23,10 @@ function AboutMe() {
               <div className="col-12">
                 <p className="para1">
                   Welcome to my webpage and thanks for visiting! My name is
-                  Chyna Davis and I am a linguist and full-stack web developer from Tucson, Arizona.
-                  I graduated from the University of Arizona in 2017 with a
-                  degree in Linguistics and a minor in Japanese language.
+                  Chyna Davis and I am a linguist and full-stack web developer
+                  from Tucson, Arizona. I graduated from the University of
+                  Arizona in 2017 with a degree in Linguistics and a minor in
+                  Japanese language.
                 </p>
                 <p className="para1">
                   After graduating, I traveled abroad to Taichung, Taiwan to
@@ -32,17 +34,27 @@ function AboutMe() {
                   environment. While studying at Tunghai University's Chinese
                   Language Center, I was also teaching English as a Second
                   Language (ESL). After three semesters, I returned home and
-                  decided to enroll in the UofA's Coding Bootcamp to gain highly
-                  sought-after web development skills. My goal is to be able to
-                  find employment through these new skills in a challenging and
-                  rewarding field of work, learn a thousand times more than I
-                  already have, and help develop amazing web applications.
+                  decided to enroll in the University of Arizona Full-Stack Web
+                  Development Bootcamp to gain highly sought-after web
+                  development skills. I also have extensive experience using{" "}
+                  <span className="micOffTech">
+                    Microsoft Office (Word, PowerPoint, Excel)
+                  </span>{" "}
+                  and{" "}
+                  <span className="aCCTech">
+                    Adobe Creative Cloud (Illustrator, Photoshop, Dreamweaver)
+                  </span>
+                  . My goal is to be able to find employment through my skills
+                  in web development in a challenging and rewarding field of
+                  work, learn a thousand times more than I already have, and
+                  help develop amazing web applications.
                 </p>
                 <p className="para1">
                   Though I have experience with both front and back-end
                   development, I especially enjoy the design aspect of creating
                   an application's user-oriented front-end, and am proficient
-                  with technologies, libraries, and frameworks from both ends including:
+                  with technologies, libraries, and frameworks from both ends
+                  including:
                 </p>
               </div>
             </div>

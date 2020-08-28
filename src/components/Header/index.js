@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import "../../App.css";
+import "../Header/index.css";
 
 function Header() {
   return (
