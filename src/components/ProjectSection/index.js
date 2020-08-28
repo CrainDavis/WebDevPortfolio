@@ -1,5 +1,4 @@
 import React from "react";
-import "../../App.css";
 import { Tabs, Tab, Row } from "react-bootstrap";
 import webProjects from "../../utils/WebProjects";
 import WebProject from "../WebProject";

@@ -52,14 +52,14 @@
   animation-timing-function: ease-out;
 }
 .para1 {
-  text-align: left;
+  text-align: center;
   padding: 0 8px 0 8px;
   font-size: 15px;
   opacity: 1;
   animation-name: bioParagraphs;
   animation-duration: 3s;
 }
-.micOffTech, .aCCTech {
+.para-accent {
   font-weight: bold;
   color: #0abfbc;
   text-shadow: 1px 1px 2px rgb(231, 227, 227);
@@ -83,6 +83,9 @@
 
 /* SIZING FOR sm SCREEN SIZES; 576px - 767px */
 @media (min-width: 576px) {
+  .para1 {
+    padding: 0 8px 0 8px;
+  }
 }
 
 /* SIZING FOR md SCREEN SIZES; 768px - 991px */
@@ -90,6 +93,9 @@
   .bio-image {
     width: 100%;
     margin-left: 15px;
+  }
+  .para1 {
+    padding: 0 20px 0 8px;
   }
   .bio-paragraphs {
     height: 400px;
@@ -104,6 +110,7 @@
   }
   .para1 {
     font-size: 18px;
+    padding: 0 20px 0 8px;
   }
 }
 
@@ -118,5 +125,6 @@
   }
   .para1 {
     font-size: 16px;
+    padding: 0 60px 0 8px;
   }
 }

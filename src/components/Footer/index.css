@@ -37,6 +37,7 @@
   text-decoration: none;
   animation-name: footerName;
   animation-duration: 0.5s;
+  cursor: pointer;
 }
 
 /* ============================================================================================ */

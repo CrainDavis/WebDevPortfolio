@@ -34,12 +34,42 @@
     color: white;
   }
 }
+@keyframes projectSection {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes projectCardHover {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(2deg);
+  }
+  40% {
+    transform: rotate(-2deg);
+  }
+  60% {
+    transform: rotate(-2deg);
+  }
+  80% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
 /* ============================================================================================ */
 
 /* default; xs DEVICES less than 576px */
 .project-section {
   margin: 0px 10px 10px 10px;
+  animation-name: projectSection;
+  animation-duration: 1s;
 }
 .tabs-section a {
   background-color: lightgray;
@@ -59,6 +89,7 @@
   animation-duration: 0.5s;
 }
 .tabs-section a:hover {
+  cursor: pointer;
   background-color: #cef2f1;
   color: lightseagreen;
   animation-name: portfolioTabs;
@@ -70,11 +101,16 @@
   border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
 }
-.card {
+.project-card {
   background-color: #f4f4f4;
   border: 1px solid gray;
   margin: 5px;
   box-shadow: 1px 1px 10px #888888;
+}
+.project-card:hover {
+  cursor: pointer;
+  animation-name: projectCardHover;
+  animation-duration: 0.5s;
 }
 .project-img {
   height: 200px;
@@ -101,6 +137,7 @@
   margin-bottom: 0px;
 }
 .project-link-btn:hover {
+  cursor: pointer;
   background-color: #971f2d;
   text-decoration: none;
   color: white;
@@ -108,6 +145,7 @@
   animation-duration: 0.5s;
 }
 .artwork-btn:hover {
+  cursor: pointer;
   background-color: #971f2d;
   text-decoration: none;
   color: white;
