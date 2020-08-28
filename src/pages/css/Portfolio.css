@@ -1,0 +1,220 @@
+/* ============================================================================================ */
+
+/* PORTFOLIO PAGE */
+
+/* ============================================================================================ */
+
+@keyframes portfolioTabs {
+  from {
+    background-color: white;
+    color: #fc354c;
+  }
+  to {
+    background-color: white;
+    color: #fc354c;
+  }
+}
+@keyframes portfolioTabs {
+  from {
+    background-color: lightgray;
+    color: darkslategray;
+  }
+  to {
+    background-color: #cef2f1;
+    color: lightseagreen;
+  }
+}
+@keyframes projectBtn {
+  from {
+    background-color: #fc354c;
+    color: white;
+  }
+  to {
+    background-color: #971f2d;
+    color: white;
+  }
+}
+@keyframes projectSection {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes projectCardHover {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(2deg);
+  }
+  40% {
+    transform: rotate(-2deg);
+  }
+  60% {
+    transform: rotate(-2deg);
+  }
+  80% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* ============================================================================================ */
+
+/* default; xs DEVICES less than 576px */
+.project-section {
+  margin: 0px 10px 10px 10px;
+  animation-name: projectSection;
+  animation-duration: 1s;
+}
+.tabs-section a {
+  background-color: lightgray;
+  color: darkslategray;
+  font-size: 10px;
+  padding: 5px;
+}
+.nav-tabs .nav-link.active {
+  background-color: white;
+  color: #fc354c;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  animation-name: activePortfolioTabs;
+  animation-duration: 0.5s;
+}
+.tabs-section a:hover {
+  cursor: pointer;
+  background-color: #cef2f1;
+  color: lightseagreen;
+  animation-name: portfolioTabs;
+  animation-duration: 0.5s;
+}
+.tab-content {
+  background-color: white;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.project-card {
+  background-color: #f4f4f4;
+  border: 1px solid gray;
+  margin: 5px;
+  box-shadow: 1px 1px 10px #888888;
+}
+.project-card:hover {
+  cursor: pointer;
+  animation-name: projectCardHover;
+  animation-duration: 0.5s;
+}
+.project-img {
+  height: 200px;
+}
+.art-img {
+  width: 100%;
+  height: auto;
+}
+.card-title {
+  background-color: #0abfbc;
+  color: white;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 5px;
+}
+.project-link-btn,
+.artwork-btn {
+  background-color: #fc354c;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+.artwork-btn {
+  margin-bottom: 0px;
+}
+.project-link-btn:hover {
+  cursor: pointer;
+  background-color: #971f2d;
+  text-decoration: none;
+  color: white;
+  animation-name: projectBtn;
+  animation-duration: 0.5s;
+}
+.artwork-btn:hover {
+  cursor: pointer;
+  background-color: #971f2d;
+  text-decoration: none;
+  color: white;
+  animation-name: projectBtn;
+  animation-duration: 0.5s;
+}
+
+/* ============================================================================================ */
+
+/* SIZING FOR sm SCREEN SIZES; 576px - 767px */
+@media (min-width: 576px) {
+  .project-img {
+    height: 300px;
+  }
+  .tabs-section a {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+/* SIZING FOR md SCREEN SIZES; 768px - 991px */
+@media (min-width: 768px) {
+  .project-img {
+    height: 250px;
+  }
+  .card-title {
+    font-size: 25px;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+  .project-link-btn {
+    font-size: 20px;
+  }
+  .tabs-section a {
+    font-size: 20px;
+  }
+}
+
+/* SIZING FOR lg SCREEN SIZES; 992px - 1199px */
+@media (min-width: 992px) {
+  .project-img {
+    height: 250px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-text {
+    font-size: 22px;
+  }
+  .project-link-btn {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+/* SIZING FOR xl SCREEN SIZES and UP; 1200px+ */
+@media (min-width: 1200px) {
+  .project-img {
+    height: 250px;
+  }
+  .card-title {
+    font-size: 30px;
+  }
+  .card-text {
+    font-size: 18px;
+  }
+  .project-link-btn {
+    font-size: 20px;
+    padding: 8px;
+  }
+}

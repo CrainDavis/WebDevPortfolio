@@ -1,6 +1,7 @@
 import React from "react";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import "../App.css";
+import "../pages/css/Contact.css";
 import SectionSpacing from "../components/SectionSpacing";
 import Resume from "../utils/documents/ChynaDavis_resume.pdf";
 import BootcampCertificate from "../utils/documents/ChynaDavis_01.pdf";

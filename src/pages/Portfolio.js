@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import "../pages/css/Portfolio.css";
 import SectionSpacing from "../components/SectionSpacing";
 import ProjectSection from "../components/ProjectSection";
 

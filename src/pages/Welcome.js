@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import "../pages/css/Welcome.css";
 import hibiscusLogo from "../utils/images/art-images/hibiscus-logo.png";
 
 function Welcome() {

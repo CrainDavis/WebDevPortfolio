@@ -1,0 +1,129 @@
+/* ============================================================================================ */
+
+/* PAGE HEADER */
+
+/* ============================================================================================ */
+
+@keyframes pageLinks {
+  from {
+    color: black;
+  }
+  to {
+    color: #fc354c;
+  }
+}
+@keyframes activePageLinks {
+  from {
+    color: #0abfbc;
+  }
+  to {
+    color: #0abfbc;
+  }
+}
+@keyframes headerName {
+  from {
+    color: #fc354c;
+  }
+  to {
+    color: #971f2d;
+  }
+}
+
+/* ============================================================================================ */
+
+/* default; xs DEVICES less than 576px */
+.jumbotron {
+  background-color: transparent;
+  text-align: center;
+}
+.text-container {
+  background-color: white;
+  padding: 10px;
+  border: 5px solid white;
+  background-clip: content-box;
+  box-shadow: 1px 1px 10px #6e6d6d;
+}
+.jumbotron-text {
+  padding: 30px;
+}
+.page-links {
+  color: black;
+  font-size: 12px;
+}
+.page-links:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fc354c;
+  animation-name: pageLinks;
+  animation-duration: 0.2s;
+}
+.Header__link--active {
+  border-bottom: 2px solid #0abfbc;
+  color: #0abfbc;
+}
+.Header__link--active:hover {
+  cursor: pointer;
+  color: #0abfbc;
+  animation-name: activePageLinks;
+  animation-duration: 0.2s;
+}
+.home-page-link {
+  font-family: "Fredoka One", cursive;
+  font-size: 40px;
+  color: #fc354c;
+  border-bottom: 2px solid #0abfbc;
+}
+.home-page-link:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #971f2d;
+  animation-name: headerName;
+  animation-duration: 0.5s;
+}
+.job-title {
+  padding-top: 7px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* ============================================================================================ */
+
+/* SIZING FOR sm SCREEN SIZES; 576px - 767px */
+@media (min-width: 576px) {
+  .job-title {
+    font-size: 24px;
+    padding-top: 25px;
+  }
+  .page-links {
+    font-size: 18px;
+  }
+}
+
+/* SIZING FOR md SCREEN SIZES; 768px - 991px */
+@media (min-width: 768px) {
+  .job-title {
+    padding-top: 25px;
+    font-size: 15px;
+  }
+}
+
+/* SIZING FOR lg SCREEN SIZES; 992px - 1199px */
+@media (min-width: 992px) {
+  .job-title {
+    padding-top: 18px;
+    font-size: 22px;
+  }
+  .page-links {
+    font-size: 24px;
+  }
+}
+
+/* SIZING FOR xl SCREEN SIZES and UP; 1200px+ */
+@media (min-width: 1200px) {
+  .job-title {
+    font-size: 25px;
+  }
+  .page-links {
+    font-size: 20px;
+  }
+}

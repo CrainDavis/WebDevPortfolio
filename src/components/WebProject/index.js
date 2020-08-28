@@ -26,7 +26,7 @@ function WebProject(props) {
   return (
     <>
       <Col xs={12} md={6} xl={3} className="mb-3">
-        <Card key={props.webProject.id} className="h-100">
+        <Card key={props.webProject.id} className="project-card h-100">
           <Card.Img
             variant="top"
             className="project-img"

@@ -1,0 +1,101 @@
+/* ============================================================================================ */
+
+/* CONTACT PAGE */
+
+/* ============================================================================================ */
+
+@keyframes contactCards {
+  0% {
+    opacity: 0;
+    left: 0px;
+    top: 100px;
+  }
+  100% {
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes contactLinks {
+  from {
+    color: #fc354c;
+  }
+  to {
+    color: #0abfbc;
+  }
+}
+
+/* ============================================================================================ */
+
+/* default; xs DEVICES less than 576px */
+.contact-me-section {
+  padding: 0px 20px;
+}
+.sns-section {
+  opacity: 1;
+  background-color: lightgray;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #888888;
+  position: relative;
+  animation-name: contactCards;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.sns-link,
+.email-link {
+  font-size: 50px;
+  margin: 0 10px;
+  color: white;
+}
+.sns-link-icon,
+.resume-link,
+.email-link {
+  color: #fc354c;
+}
+.sns-link-icon:hover {
+  cursor: pointer;
+  color: #0abfbc;
+  animation-name: contactLinks;
+  animation-duration: 0.5s;
+}
+.contact-address {
+  font-size: 15px;
+}
+.email-link:hover {
+  cursor: pointer;
+  color: #0abfbc;
+  animation-name: contactLinks;
+  animation-duration: 0.5s;
+}
+.resume-link:hover {
+  cursor: pointer;
+  color: #0abfbc;
+  animation-name: contactLinks;
+  animation-duration: 0.5s;
+}
+.main-contact-card {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* ============================================================================================ */
+
+/* SIZING FOR sm SCREEN SIZES; 576px - 767px */
+@media (min-width: 576px) {
+}
+
+/* SIZING FOR md SCREEN SIZES; 768px - 991px */
+@media (min-width: 768px) {
+}
+
+/* SIZING FOR lg SCREEN SIZES; 992px - 1199px */
+@media (min-width: 992px) {
+}
+
+/* SIZING FOR xl SCREEN SIZES and UP; 1200px+ */
+@media (min-width: 1200px) {
+}

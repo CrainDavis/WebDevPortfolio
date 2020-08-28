@@ -82,6 +82,7 @@
   }
   .ril__navButtons:hover {
     opacity: 1;
+    cursor: pointer;
   }
   .ril__navButtons:active {
     opacity: 0.7;
@@ -201,6 +202,7 @@
   }
   .ril__builtinButtonDisabled:hover {
     opacity: 0.5;
+    cursor: pointer;
   }
   
   .ril__closeButton {
