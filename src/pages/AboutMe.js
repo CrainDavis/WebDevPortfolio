@@ -73,7 +73,7 @@ function AboutMe() {
             </div>
 
             <div className="row justify-content-center">
-              <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
+              <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
                 HTML5 / CSS3
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-3 skill-item-main">
@@ -88,10 +88,10 @@ function AboutMe() {
               <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
                 Node.js / Express.js
               </div>
-              <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
+              <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
                 Handlebars.js
               </div>
-              <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
+              <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
                 MySQL
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
@@ -99,6 +99,9 @@ function AboutMe() {
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
                 REST APIs
+              </div>
+              <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
+                LocalStorage
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
                 Git version control
