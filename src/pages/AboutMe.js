@@ -74,7 +74,7 @@ function AboutMe() {
 
             <div className="row justify-content-center">
               <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
-                HTML / CSS
+                HTML5 / CSS3
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-3 skill-item-main">
                 Bootstrap, Bulma, Material-UI
@@ -86,13 +86,13 @@ function AboutMe() {
                 React
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
-                Node.js / Express
+                Node.js / Express.js
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
-                Handlebars
+                Handlebars.js
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-2 skill-item-main">
-                MySQL / Sequelize
+                MySQL
               </div>
               <div className="col-10 col-md-8 col-lg-4 col-xl-1 skill-item-main">
                 MongoDB

@@ -133,7 +133,7 @@ function Contact() {
                       key={"tooltip-resume"}
                       placement={"top"}
                       overlay={
-                        <Tooltip id={"tooltip-resume"}>my resume</Tooltip>
+                        <Tooltip id={"tooltip-resume"}>Resume</Tooltip>
                       }
                     >
                       <a className="resume-link" href={Resume} target="__blank">
