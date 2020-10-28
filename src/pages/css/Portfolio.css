@@ -179,6 +179,7 @@
   }
   .project-link-btn {
     font-size: 20px;
+    padding: 8px 12px;
   }
   .tabs-section a {
     font-size: 20px;
@@ -198,7 +199,7 @@
   }
   .project-link-btn {
     font-size: 16px;
-    padding: 10px;
+    padding: 10px 30px;
   }
 }
 
@@ -215,6 +216,6 @@
   }
   .project-link-btn {
     font-size: 20px;
-    padding: 8px;
+    padding: 8px 40px;
   }
 }
