@@ -205,7 +205,7 @@
 /* SIZING FOR xl SCREEN SIZES and UP; 1200px+ */
 @media (min-width: 1200px) {
   .project-img {
-    height: 250px;
+    height: 300px;
   }
   .card-title {
     font-size: 30px;

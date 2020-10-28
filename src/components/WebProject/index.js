@@ -10,6 +10,7 @@ import bestimator from "../../utils/images/app-images/bestimator-IMAGE.png";
 import employeeDirectory from "../../utils/images/app-images/employee-directory-IMAGE.png";
 import googleBookshelf from "../../utils/images/app-images/google-bookshelf-IMAGE.png";
 import colorStory from "../../utils/images/app-images/color-story-IMAGE.png";
+import colorSorter from "../../utils/images/app-images/color-sorting-machine-IMAGE.png";
 
 const images = [
   codeQuiz,
@@ -20,12 +21,13 @@ const images = [
   employeeDirectory,
   googleBookshelf,
   colorStory,
+  colorSorter
 ];
 
 function WebProject(props) {
   return (
     <>
-      <Col xs={12} md={6} xl={3} className="mb-3">
+      <Col xs={12} md={6} xl={4} className="mb-3">
         <Card key={props.webProject.id} className="project-card h-100">
           <Card.Img
             variant="top"
