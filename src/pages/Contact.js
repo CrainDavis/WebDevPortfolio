@@ -30,23 +30,6 @@ function Contact() {
                 <div className="col-12">
                   <span className="sns-link">
                     <OverlayTrigger
-                      key={"tooltip-facebook"}
-                      placement={"top"}
-                      overlay={
-                        <Tooltip id={"tooltip-facebook"}>Facebook</Tooltip>
-                      }
-                    >
-                      <a
-                        className="sns-link-icon"
-                        href="https://www.facebook.com/chyna.davis.5"
-                        target="__blank"
-                      >
-                        <i className="fab fa-facebook"></i>
-                      </a>
-                    </OverlayTrigger>
-                  </span>
-                  <span className="sns-link">
-                    <OverlayTrigger
                       key={"tooltip-linkedin"}
                       placement={"top"}
                       overlay={

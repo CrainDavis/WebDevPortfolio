@@ -26,7 +26,6 @@ This is my Web Development Portfolio, created using ReactJS. Feel free to check 
 ---
 
 ## Social Media & Contact Information:
-* [Facebook](https://www.facebook.com/chyna.davis.5)
 * [LinkedIn](https://linkedin.com/in/chyna-davis)
 * [GitHub](https://github.com/CrainDavis) (CrainDavis)
 
