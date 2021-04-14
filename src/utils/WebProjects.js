@@ -24,7 +24,7 @@ export default [
         num: 2,
         gh_href: "https://github.com/CrainDavis/EmployeeTrackerCMS",
         app_href: "https://drive.google.com/drive/folders/1-7KB-A-hZMCgDpsGxaW6seUpVrDH7x_Q",
-        img_src: "-IMAGE.png",
+        img_src: "employee-CMS-IMAGE.png",
         app_name: "Employee Tracker CMS",
         app_text: "is a Command Line Interface (CLI) application that allows the user to search through a company's database for department, role, and employee information. Users can view, add, update, and delete data as they wish. This application is built with NodeJS and the database uses MySQL to hold, create, and delete information.",
         tech_used: ["Node.js", "Express.js", "MySQL"]
