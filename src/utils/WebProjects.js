@@ -2,12 +2,12 @@ export default [
     {
         id: "project-1",
         num: 0,
-        gh_href: "https://github.com/CrainDavis/JS.CodingQuiz",
-        app_href: "https://craindavis.github.io/JS.CodingQuiz/",
-        img_src: "code-quiz-IMAGE.png",
-        app_name: "Code Quiz",
-        app_text: "is an application that allows a user to take a timed quiz of 10 multiple-choice questions on basic JavaScript knowledge, and save their high scores. User scores are saved to be viewed again and/or cleared.",
-        tech_used: ["HTML", "CSS", "JavaScript", "LocalStorage"]
+        gh_href: "https://github.com/CrainDavis/LearnJapanese",
+        app_href: "https://craindavis.github.io/LearnJapanese/",
+        img_src: "jpn-quiz-IMAGE.png",
+        app_name: "Learn Japanese",
+        app_text: "is a multiple-choice quiz designed for beginning-level learners of Japanese to practice memorizing two of the fundamental writing systems of the language: Hiragana and Katakana. Users can play the quiz in a relaxed untimed environment, practice reading Japanese characters, save their scores to see how much they improve over time, and learn more about the Japanese writing system.",
+        tech_used: ["HTML", "CSS", "JavaScript", "LocalStorage", "JSON"]
     },
     {
         id: "project-2",
@@ -87,6 +87,6 @@ export default [
         img_src: "color-sorting-machine-IMAGE.png",
         app_name: "Color Sorting Machine",
         app_text: "is an application that converts a color's RGB value to a human-friendly color category. By typing in three numbers between 0 and 255 into the respective red, green, and blue input fields, this algorithm will evaluate the numbers and decide which color category (red, orange, yellow, yellow-green, green, turquoise, cyan, aqua, blue, purple, magenta, black, white, or gray) it belongs in.",
-        tech_used: ["HTML", "CSS", "JavaScript", "jQuery"]
+        tech_used: ["HTML", "CSS", "JavaScript", "jQuery", "algorithms"]
     }
 ]
