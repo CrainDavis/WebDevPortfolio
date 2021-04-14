@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import { Card, Row, Col } from "react-bootstrap";
 
-import codeQuiz from "../../utils/images/app-images/code-quiz-IMAGE.png";
+import codeQuiz from "../../utils/images/app-images/jpn-quiz-IMAGE.png";
 import weatherDashboard from "../../utils/images/app-images/weather-dashboard-IMAGE.png";
 import employeeTrackerCMS from "../../utils/images/app-images/employee-CMS-IMAGE.png";
 import burger from "../../utils/images/app-images/burger-IMAGE.png";
