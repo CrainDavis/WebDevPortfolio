@@ -4,7 +4,7 @@ export default [
         num: 0,
         img_src: "4seasons.png",
         img_title: "Four Seasons",
-        description: "The four seasons are represented through a collage of images that symbolize their respective season. The Chinese characters (春 [chun1], 夏 [xia4], 秋 [qiu1], 冬 [dong1]) translate to each of the four seasons (spring, summer, autumn, and winter). The images and text were compiled and edited using Microsoft PowerPoint."
+        description: "The four seasons are represented through a collage of images that symbolize their respective season. The Chinese characters (春 [chūn], 夏 [xià], 秋 [qiū], 冬 [dōng]) translate to each of the four seasons (spring, summer, autumn, and winter)."
     },
     {
         id: "art-2",
