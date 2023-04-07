@@ -29,11 +29,3 @@ This is my Web Development Portfolio, created using ReactJS. Feel free to check 
 * [LinkedIn](https://linkedin.com/in/chyna-davis)
 * [GitHub](https://github.com/CrainDavis) (CrainDavis)
 
----
-
-## Questions: 
-for any questions, please contact:
-
-![CrainDavis](https://avatars0.githubusercontent.com/u/59345254?v=4) 
-
-__[CrainDavis](https://github.com/CrainDavis)__ at chyna.davis11@gmail.com
