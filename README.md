@@ -22,10 +22,3 @@ This is my Web Development Portfolio, created using ReactJS. Feel free to check 
 * [React Lightbox](https://www.npmjs.com/package/react-image-lightbox)
 * [51 CSS Background Patterns](https://freefrontend.com/css-background-patterns/)
     * ["CSS Background Patterns - Boxes" by Praveen Puglia](https://codepen.io/praveenpuglia/pen/MyNpXQ)
-
----
-
-## Social Media & Contact Information:
-* [LinkedIn](https://linkedin.com/in/chyna-davis)
-* [GitHub](https://github.com/CrainDavis) (CrainDavis)
-
